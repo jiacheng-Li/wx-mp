@@ -1,5 +1,5 @@
 // pages/login/login.js
-import { request } from "../../request/index";
+
 
 Page({
   /**
@@ -11,11 +11,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    request({
-      url: "http://api_devs.wanxikeji.cn/api/goodList",
-    }).then((res) => {
-      console.log(res);
-    });
+
   },
 
   /**
